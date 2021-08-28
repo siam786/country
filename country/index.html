@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Country Api</title>
+    <style>
+        #country-info{
+            width: 15em;
+            margin: auto;
+        }
+      #country-list {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding: 2em;
+        gap: 1em;
+      }
+
+      .display-grid {
+        padding: 2em;
+        background-color: bisque;
+        border: 2px solid tomato;
+        border-radius: 10px;
+      }
+    </style>
+  </head>
+  <body>
+      <section id="country-info">
+          <h2>Country Details</h2>
+          <div id="country-details"></div>
+      </section>
+    <div id="country-list"></div>
+    <script src="app.js"></script>
+  </body>
+</html>
